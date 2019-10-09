@@ -1,0 +1,8 @@
+@conference{cao2019lessons,
+  author       = {Cao, Hung and Brown, Marcel and Chen, Lizhi and Smith, Riley and Wachowicz, Monica}, 
+  title        = {Lessons learned from integrating batch and stream processing using IoT data},
+  booktitle	= {The 6th IEEE International Conference on Internet of Things: Systems, Management and Security},
+  year         = 2019,
+  venue      = {Granada, Spain},
+  month        = 10
+}

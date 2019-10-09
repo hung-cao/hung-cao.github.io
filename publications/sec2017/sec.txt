@@ -1,0 +1,8 @@
+@inproceedings{maduako2017combining,
+  title={Combining edge and cloud computing for mobility analytics},
+  author={Maduako, Ikechukwu and Cao, Hung and Hernandez, Lilian and Wachowicz, Monica},
+  booktitle={Proceedings of the Second ACM/IEEE Symposium on Edge Computing},
+  pages={22},
+  year={2017},
+  organization={ACM}
+}

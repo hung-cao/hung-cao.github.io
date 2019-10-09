@@ -1,0 +1,8 @@
+@inproceedings{lung2012analysis,
+  title={Analysis of Vietnamese tones to optimize database in speech synthesis using unit selection method},
+  author={Lung, Vu Duc and Van Hung, Cao and Loc, Nguyen Phuoc and Quoc, Nguyen Viet},
+  booktitle={Signal Processing and Information Technology (ISSPIT), 2012 IEEE International Symposium on},
+  pages={000043--000048},
+  year={2012},
+  organization={IEEE}
+}

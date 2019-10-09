@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Welcome to Hung Cao's page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Favicon-->
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../images/favicon.ico" type="image/x-icon"> 
+
+<!-- W3 -->
+<link rel="stylesheet" href="../css/w3.css">
+
+<!-- Style -->
+<link rel="stylesheet" href="../css/style.css">
+
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+<!--<link rel="stylesheet" href="css/main.css">-->
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/menucollapse.js"></script>
+<script type="text/javascript" src="../js/arrow78.js"></script>
+<script type="text/javascript" src="../js/custom.js"></script>
+
+</head>
+
+<!--Font color style of the links-->
+<style>
+  a {color: #f00;}
+  a:hover {color: #00f;}
+</style> 
+
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid ">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+          <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+           <!--  <span><a href="#"><img src="images/PIML_logo.png" height="50" border="0"/></a></span> -->
+           <!-- <span><a href="#"><img border="0" width="170" src="images/csucy.png"/></a></span> -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!--<li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<span class="w3-text-red">
+						<i class="fa fa-home"></i> Home<span class="caret"></span>
+					</span>
+				</a>
+                    <ul class="dropdown-menu">
+						<li><a onclick="javascript:reset_menus();$('#intro-mobile').show();" href="#intro">Introduction</a></li>
+                        <li><a href="bio.html">Short Biography</a></li>
+                        <li><a href="cv.html">CV (Web)</a></li>
+                        <li><a target="_blank" href="zeinalipour.pdf">CV (PDF)</a></li>
+                    </ul>
+                </li>-->
+                
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#intro-mobile').show();" href="../#intro">
+						<span class="w3-text-red">
+							<i class="fa fa-home"></i> Home
+						</span>
+					</a>
+					
+                </li>
+                
+                
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#news-mobile').show();" href="../#news">
+						<span class="w3-text-red">
+							<i class="fa fa-bullhorn" aria-hidden="true"></i> News
+						</span>
+					</a>
+					
+                </li>
+				
+				<li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#research-mobile').show();" href="/research">
+						<span class="w3-text-red">
+							<i class="fa fa-grav" aria-hidden="true"></i> Research
+						</span>
+					</a>
+					
+                </li>
+				
+                <!--<li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<span class="w3-text-red">
+						<i class="fa fa-newspaper-o" aria-hidden="true"></i> Publications<span class="caret"></span>
+					</span>
+				</a>
+					<ul class="dropdown-menu">
+						<li><a onclick="javascript:reset_menus();$('#pubs-mobile').show();" href="../#publications"><span class="w3-text-red">Selected</span></a></li>
+						<li><a href="../publications/"><span class="w3-text-red">All</span></a></li>
+					</ul> 
+                </li>-->
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#pubs-mobile').show();" href="../publications">
+						<span class="w3-text-red">
+							<i class="fa fa-newspaper-o" aria-hidden="true"></i> Publications
+						</span>
+					</a>
+                </li>
+                <!--<li class="page-scroll">
+                    <a href="talks/">Talks</a>
+                </li>-->
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#awards-mobile').show();" href="../awards">
+						<span class="w3-text-red">
+							<i class="fa fa-trophy" aria-hidden="true"></i> Honors & Awards
+						</span>
+					</a>
+                </li>
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#qualifications-mobile').show();" href="../qualifications">
+						<span class="w3-text-red">
+							<i class="fa fa-certificate" aria-hidden="true"></i> Qualifications
+						</span>
+					</a>
+                </li>
+                
+                <!--<li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<span class="w3-text-red">
+						<i class="fa fa-certificate" aria-hidden="true"></i> Qualifications<span class="caret"></span>
+					</span>
+				</a>
+					<ul class="dropdown-menu">
+						<li><a onclick="javascript:reset_menus();$('#qualifications-mobile').show();" href="../#qualifications"><span class="w3-text-red">Selected</span></a></li>
+						<li><a href="../qualifications/"><span class="w3-text-red">All</span></a></li>
+					</ul> 
+				</li>-->
+                
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#courses-mobile').show();" href="../#courses">
+						<span class="w3-text-red">
+							<i class="fa fa-book" aria-hidden="true"></i> Courses
+						</span>
+					</a>
+                </li>
+                
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#service-mobile').show();" href="../#service">
+						<span class="w3-text-red">
+							<i class="fa fa-briefcase" aria-hidden="true"></i> Service
+						</span>
+					</a>
+                </li>
+                <li class="page-scroll">
+					<a onclick="javascript:reset_menus();$('#advising-mobile').show();" href="../#advising">
+						<span class="w3-text-red">
+							<i class="fa fa-users" aria-hidden="true"></i> Advising
+						</span>
+					</a>
+                </li>
+                <!--<li class="page-scroll">
+                    <a target="_blank" href="http://dmsl.cs.ucy.ac.cy/projects.php">Grants</a>
+                </li>-->
+
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#contact-mobile').show();" href="../#contact">
+						<span class="w3-text-red">
+							<i class="fa fa-id-card-o" aria-hidden="true"></i> Contact
+						</span>
+					</a>
+                </li>
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+						<span class="w3-text-red">
+							<span class="glyphicon glyphicon-search"></span>
+						</span>
+                    </a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+
+        <!-- search box submenu -->
+        <div class="collapse" id="bs-example-navbar-collapse-2">
+            <gcse:search></gcse:search>
+        </div>
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+<section>
+    <!-- Place this tag where you want the search results to render -->
+    <gcse:searchresults-only></gcse:searchresults-only>
+</section>
+
+<!--Sidebar-->
+<div id="sidebar" class="col-sm-5 col-md-4 col-lg-3" style="border-right-color: rgb(244, 67, 54);">
+        <div class="row">
+          <img class="profile-img" src="../images/hcao.png">
+          <h2 class="name"><strong>Hung Cao</strong></h2>
+          <h4>Ph.D. Candidate</h4>
+          <h5>
+          <p><i class="fa fa-flask fa-fw w3-margin-right w3-large w3-text-red"></i><a target="_blank" href="http://www.people-in-motion-lab.org/">People in Motion Lab (Cisco Big Data Analytics)</a></p>
+          <p><i class="fa fa-building fa-fw w3-margin-right w3-large w3-text-red"></i><a target="_blank" href="http://www2.unb.ca/gge/HomePage.php">Department of Geomatics Engineering</a></p>
+          <p><i class="fa fa-university fa-fw w3-margin-right w3-large w3-text-red"></i><a  target="_blank" href="http://www.unb.ca/">University of New Brunswick</a></p>
+          <p><i class="fa fa-address-card fa-fw w3-margin-right w3-large w3-text-red"></i>15 Dineen Dr, Rm E-50, Fredericton, NB E3B 5A3, Canada</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-red"></i><a href="tel:015062302949">+1-506-230-2949</a></p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-red"></i><script language="JavaScript">
+                <!--
+                document.write("&nbsp;");
+                spiderjam('hcao3','unb.ca');
+                -->
+            </script></p>
+            <p><i class="fa fa-location-arrow fa-fw w3-margin-right w3-large w3-text-red"></i><a target="_blank" href="https://goo.gl/maps/zfXf5ciHc512">https://goo.gl/maps/zfXf5ciHc512</a></p>
+          </h5>
+         </div>
+          <!--<p><br</p>-->
+         <!--<hr class="star-primary visible-xs" style="border-color: #f00">-->
+         <hr class="star-primary visible-xs">
+	</div>
+
+
+
+<div class="main col-sm-7 col-md-8 col-lg-9 col-sm-offset-5 col-md-offset-4 col-lg-offset-3">
+
+
+<!-- Research Section -->
+<section id="research">
+    <div class="container-fluid lead">
+      <div class = "row">
+      	<h2 class = "w3-text-red" style="margin-left:40px"><i class="fa fa-grav fa-fw w3-margin-right w3-xxlarge w3-text-red"></i> Selected Research Projects</h2>
+       		<div style="margin-left:45px" class="text-justify">
+       		  <p> I have been involved in different research projects (MITACS, NSERC Engage, NSERC/Cisco IRC projects) collaborating with different companies (e.g.: Cisco, Rimot, The Black Arcs, Codiac Transpo, HotSpot) to develop working prototypes that could be used as a template for the company's products in the future. My research activities focus on the following topics:  </p>
+       		  <ul>
+       		    <li><strong>Edge Computing, Fog Computing, Cloud Computing</strong> <br>
+       		      <em>Combining edge, fog, and cloud resources to build an architecuture for Analytics Everywhere Framework. </em></li>
+       		    <li><strong>Internet of Things</strong> <br> <em>Implementing different IoT sensors to collect data in real time and applying them in many smart city use case studies.</em></li>
+       		  	<li><strong>Big Data Analytics, Data Science</strong> <br> <em>Analyzing continous and accumulated IoT data streams using different analytical capabilities such as descriptive, diagnostics, predictive analytics.</em></li>
+       		  	<li><strong>Machine Learning, Data Mining</strong> <br> <em>Developing different machine learning, deep learning to perform incremental online learning, federated learning, transfer learning on IoT data streams. </em></li>
+       		  </ul>
+       		  <p> Belows are the selected projects, tutorial, outcomes from my past and current research. </p>
+       		</div>
+	   </div>
+       <div class = "row"> 
+       	<div style="text-align: left; margin-top:10px" class="col-md-6">
+			<div class="container-fluid lead">
+				<div class="col-xs-12">
+      				<div class="text-justify">
+        				<h4 class="text-center">
+           	 				<strong>Analytics Everywhere Framework</strong><br>
+            				<small>Generating new insights from the Internet of Things</small>
+        				</h4>
+        				<div class="col-xs-12 col-md-12">
+        					<img src="/images/research/IOTSMS_architecture.png" class="img-responsive" alt=""/> <br> 
+      					</div>
+						<p>Analytics Everywhere is our proposed conceptual framework that is developed based on edge-fog-cloud continuum to handle an enormous volume of incoming data streams from IoT devices and perform a network of analytical tasks (different analytical capabilities such as descriptive, diagnostic, and predictive analytics) according to a data life-cycle. This major breakthrough framework provided us with an iterative learning experience on how to advance our research towards automated analytical tasks for the Internet of Things. </p>
+						<h4><strong>[Publications]</strong> <a href="/publications/2019-ieeeacess/analytics-published.pdf"><i class="fa fa-file-pdf-o">&nbsp;</i></a> <a href="/publications/2019-sensors/sensors-19-03594-v3.pdf"><i class="fa fa-file-pdf-o">&nbsp;</i></a> <a href="/publications/2018-arXiv/1711.09745v2.pdf"><i class="fa fa-file-pdf-o">&nbsp;</i></a><strong>[Demo]</strong> <a target="_blank" href="https://www.youtube.com/embed/videoseries?list=PL-hcE-LoSl0uMQy12yanDS8MEl5QLwp3d"><i class="fa fa-file-video-o">&nbsp;</i></a></h4>
+      				</div>
+    			</div>
+			</div> <!--container-->
+        </div>
+        <div style="text-align: left; margin-top:10px" class="col-md-6">
+			<div class="container-fluid lead">
+				<div class="col-xs-12">
+      				<div class="text-justify">
+        				<h4 class="text-center">
+           	 				<strong>Smart Transit</strong><br>
+            				<small>A smart city use case study</small>
+        				</h4>
+        				<div class="col-xs-12 col-md-9">
+        					<img src="/images/research/transit network cloud.png" class="img-responsive" alt=""/> <br> 
+      					</div>
+						<p class="lead text-justify">Small transit agencies tend to have limited resources for facing the challenges of continually increasing the high quality of the delivered transit services and reducing private car dependency while ensuring low operational costs, low environmental impact, and safety. Our smart transit case study aim at combining the current transit facilities with new technologies such as IoT, Analytics Everywhere, Advanced GIS, Edge/Fog/Cloud Computing Environment to be able to tranform them into a smart city service. The outcomes of this cutting edge research are not only pointing out to the improvement of fleet management effectiveness and efficiency by providing the right information at the right time and reducing staff workload and costs, but it can also support a variety of user groups such as bus drivers and passengers who are seeking new insights to optimize their decisions and adjust their behaviors. For example, bus drivers might be interested in knowing how their driving performance has been for the last week while passengers would be interested in how frequently the services are delivered on-time.   </p>
+						<h4><strong>[Publications]</strong> <a href="/publications/2018-ceus/CEUS_hung_monica_2018.pdf"><em class="fa fa-file-pdf-o">&nbsp;</em></a> <a href="/publications/2019-ieeeacess/analytics-published.pdf"><em class="fa fa-file-pdf-o">&nbsp;</em></a> <a href="/publications/bigdata2017/ieee_bigdata2017.pdf"><em class="fa fa-file-pdf-o">&nbsp;</em></a> <strong>[Case Study]</strong> <a target="_blank" href="/research/Project/index.html"><em class="fa fa-bus">&nbsp;</em></a> <a target="_blank" href="/research/Project/Abtract_GIS.pdf"><em class="fa fa-file-o">&nbsp;</em></a> <a target="_blank" href="/research/Project/Slide_GIS.pdf"><em class="fa fa-file-powerpoint-o">&nbsp;</em></a></h4>
+      				</div>
+    			</div>
+			</div> <!--container-->
+        </div>
+       </div>
+       <div class = "row"> 
+       	<div style="text-align: left; margin-top:10px" class="col-md-6">
+			<div class="container-fluid lead">
+				<div class="col-xs-12">
+      				<div class="text-justify">
+        				<h4 class="text-center">
+           	 				<strong>Smart Parking</strong><br>
+            				<small>A smart city use case study</small>
+        				</h4>
+        				<div class="col-xs-12 col-md-12">
+        					<div class="embed-responsive embed-responsive-4by3">
+        						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UH52abHWqqc" allowfullscreen="">
+								</iframe>
+      						</div> <br> 
+      					</div>
+						<p class="lead text-justify">Exploring Internet of Things (IoT) data streams generated by smart cities means not only transforming data into better business decisions in a timely way but also generating long-term location intelligence for developing new forms of urban governance and organization policies. Studies have shown that integrating smart parking into the city framework can shorten parking search time, reduce emissions and fuel consumption and decrease traffic congestion. This IoT use case was carried out in conjunction with the City of Saint John Parking Commission and the HotSpot Parking Company. The IoT data was utilized from both organizations to build a parking prediction model for predicting whether a parking spot is occupied or vacant within the next hour, or the next day. Parking prediction systems can drastically decrease parking times between 20 and 40% in Saint John. This means improving traffic flow by up to 30% and a decreasing in carbon emissions due to a shorter trip time.  </p>
+						<h4><strong>[Publications]</strong> <a href="/publications/2019-sensors/sensors-19-03594-v3.pdf"><i class="fa fa-file-pdf-o">&nbsp;</i></a> <a href="/publications/2019-iotsms/IEEE_IOTSMS_2019_paper11_preprint.pdf"><i class="fa fa-file-pdf-o">&nbsp;</i></a> <a href="/publications/2019-iotsms/IEEE_IOTSMS_2019_paper9_preprint.pdf"><i class="fa fa-file-pdf-o">&nbsp;</i></a><strong>[Demo]</strong> <a target="_blank" href="https://www.youtube.com/embed/videoseries?list=PL-hcE-LoSl0uMQy12yanDS8MEl5QLwp3d"><i class="fa fa-file-video-o">&nbsp;</i></a> </h4>
+      				</div>
+    			</div>
+			</div> <!--container-->
+        </div>
+        <div style="text-align: left; margin-top:10px" class="col-md-6">
+            <div class="allshow" style="display:none;" id="smart-transit">
+			<div class="container-fluid lead">
+				<div class="col-xs-12">
+      				<div class="text-justify">
+        				<h4 class="text-center">
+           	 				<strong>Air Polution Prediction in Fredericton</strong><br>
+            				<small>A smart city use case study </small>
+        				</h4>
+						<div class="col-xs-12 col-md-8">
+        					<img src="/images/research/results.png" class="img-responsive" alt=""/> <br> 
+      					</div>
+      					<div class="col-xs-12 col-md-8">
+        					<img src="/images/research/correlation.png" class="img-responsive" alt=""/> <br> 
+      					</div>
+						
+						<p>The city of Fredericton has partnered with eleven-x to deploy Internet of Things (IoT) sensors that enable real-time information and data collection from things previously impossible to monitor. Aiming to transform Frederiction into a smart city in the near future, the City is looking to innovate and develop new applications that are vital importance to the city such as real-time flood monitoring, parking occupancy monitoring using real-time connected sensors, quality of life applications for air and noise pollution, water consumption optimization and so on. We had developed a prototype to explore insights from open IoT data (provided by the City) collected through IoT devices/sensors that were deployed around the city (provided by Eleven-X). Our prototype used a deep learning prediction model (LSTM Model) and correlation model to be able to analyze and predict the air and noise pollution aiming to build an early detection and warning system for the people in the urban area. The prototype created by us won the Best Minimum Viable Product Award during 12 hours coding in Fred E-hack Smart City Hackathon.   </p>
+						<h4><strong>[Presentation]</strong> <a target="_blank" href="/publications/2019-fredehack/Fred Ehack.pdf"><i class="fa fa-file-powerpoint-o">&nbsp;</i></a> <strong>[Code]</strong> <a target="_blank" href=""><i class="fa fa-github">&nbsp;</i></a></h4>
+      				</div>
+    			</div>
+			</div> <!--container-->
+        </div>
+       </div>
+	  
+    </div>
+       <div class = "row"> 
+       	<div style="text-align: left; margin-top:10px" class="col-md-6">
+			<div class="container-fluid lead">
+				<div class="col-xs-12">
+      				<div class="text-justify">
+        				<h4 class="text-center">
+           	 				<strong>Indoor Occupancy Prediction</strong><br>
+            				<small>Using non intrusive sensors and big data analytics</small>
+        				</h4>
+        				<div class="col-xs-12 col-md-8">
+        					<img src="/images/research/Alec_IOTSMS_implementation.png" class="img-responsive" alt=""/> <br> 
+      					</div>
+						<p>Current research in indoor sensor networks has pointed out an emerging interest in occupancy detection for Building Information Management (BIM), because buildings use 68% of Canada's energy in operation and contribute 17% of greenhouse gas (GHG) emissions. As Canada pursues its COP21 agreement, there is a critical need not only to ensure that new buildings are designed to minimize energy consumption, but to address the performance of the much larger area of existing buildings. This study aims at developing a non-intrusive sensing method for predicting occupancy towards reducing building emission while also promoting a comfortable and productive working environment, while retaining the privacy of occupants. Our proposed IoT platform has the ability to efficiently collect time series and event based raw IoT data obtained from a variety of on board sensors measuring intrinsic environmental information for occupancy prediction.  </p>
+						<h4><strong>[Publications]</strong> <a target="_blank" href="/publications/2019-iotsms/IEEE_IOTSMS_2019_paper10_preprint.pdf"><i class="fa fa-file-pdf-o">&nbsp;</i></a> <!--<strong>[Demo]</strong> <a target="_blank" href="https://www.youtube.com/embed/videoseries?list=PL-hcE-LoSl0uMQy12yanDS8MEl5QLwp3d"><i class="fa fa-file-video-o">&nbsp;</i></a>--></h4>
+      				</div>
+    			</div>
+			</div> <!--container-->
+        </div>
+        <div style="text-align: left; margin-top:10px" class="col-md-6">
+			<div class="container-fluid lead">
+				<div class="col-xs-12">
+      				<div class="text-justify">
+        				<h4 class="text-center">
+           	 				<strong>Processing a massive LiDAR dataset on the cloud</strong><br>
+            				<small>Cloud computing</small>
+        				</h4>
+        				<div class="col-xs-12 col-md-8">
+        					<img src="/images/research/Lidar_plotter.png" class="img-responsive" alt=""/> <br> 
+      					</div>
+						<p>Air-borne Light Detection And Ranging (LiDAR) has been used to acquire three dimensional (3D) topographic data points of object’s surfaces of a large coverage area. The huge volumes and complexity of aerial laser scanning (ALS) data are to be great challenges for data processing as the limitation of the computing hardware. With conventional sequence algorithms, ALS data processing is to be time consuming because the processing is computationally intensive and iterative. This research proposed the cloud comping-based approaches to processing a huge volume of spatial LiDAR data. To harness cloud computing's advantages, an Octree data structure is implemented to index LiDAR points cloud on the Apache Hadoop framework using MapReduce parallel programing model.  </p>
+						<h4><strong>[Publications]</strong> <a target="_blank" href="/publications/2015-icsdm/Toward a new approach for massive LiDAR data processing.pdf"><i class="fa fa-file-pdf-o">&nbsp;</i></a> <strong>[Thesis]</strong> <a target="_blank" href="https://www.researchgate.net/publication/331976345_A_new_approach_to_process_massive_LiDAR_data_on_the_cloud_computing_environment"><i class="fa fa-file-pdf-o">&nbsp;</i></a> <strong>[Code]</strong> <a target="_blank" href="https://github.com/hung-cao/Octree_LiDAR"><i class="fa fa-github">&nbsp;</i></a> <strong>[Software]</strong> <a target="_blank" href="https://github.com/hung-cao/LiDAR_Plotter_Software"><i class="fa fa-git-square">&nbsp;</i></a></h4>
+      				</div>
+    			</div>
+			</div> <!--container-->
+        </div>
+       </div>
+	  
+    </div>
+</section>
+
+
+</div>
+	
+<footer>
+    <small>
+    <center>
+        © 2018 | Hung Cao. All Rights Reserved. Credits: AR template
+    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="../images/ccby.png"/></a>
+    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence]
+    </div>
+    </center>
+    </small> 
+</footer>
+
+</body>
+
+</html>

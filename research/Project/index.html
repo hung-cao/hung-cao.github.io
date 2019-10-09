@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Using GIS to analyse the transit service in Fredericton</title>
+<link href="BlogPostAssets/styles/blogPostStyle.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="mainwrapper">
+  <header> 
+    <!--**************************************************************************
+    Header starts here. It contains Logo and 3 navigation links. 
+    ****************************************************************************-->
+		<style type="text/css">
+		.tg  {border-collapse:collapse;border-spacing:0;border:none;}
+		.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+		.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+		.tg .tg-wp8o{font-weight:bold;font-size:36px;font-family:"Times New Roman", Times, serif !important;;border-color:#000000;text-align:center;width: 100%}
+		.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top;table-layout: auto}
+		</style>
+		<table class="tg">
+		  <tr>
+			<th class="tg-73oq"><div id="logo"><img src="BlogPostAssets/images/unb_logo_white.png" alt="unb logo"></div></th>
+			<th class="tg-wp8o">CASE STUDY</th>
+			<th class="tg-73oq"><div id="crest" align="right"><img src="/images/PIML_Logo.png" alt="piml crest" height="120" width="120"> </div></th>
+		  </tr>
+		</table>
+    
+    <!--<nav> <a href="#" title="Link">Nav1</a> <a href="#" title="Link">Nav2</a><a href="#" title="Link">Nav3</a> </nav>-->
+  </header>
+  <div id="project title" align="center"><h1>Project - Using GIS to analyse the transit service in Fredericton</h1></div>
+  <div id="content">
+    <div class="notOnDesktop"> 
+      <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
+      <input type="text" placeholder="Search">
+    </div>
+    <section id="mainContent"> 
+      <!--************************************************************************
+    Main Blog content starts here
+    ****************************************************************************-->
+      <h1 id="week1"><!-- Blog title -->Week 1</h1>
+      <!--<h3>SOME AWESOME HERO TAGLINE</h3>--> <!-- Tagline -->
+      <div id="bannerImage"><img src="BlogPostAssets/images/banner-main-transit.jpg" alt=""/></div>
+      <h2>Project's Aim</h2>
+      <p align="justify">The public transport play an important role in reducing congestion, improving economic productivity, and protecting our environment by providing an alternative means of travel to private vehicles. Fredericton Transit provides public transit services for people living in the urban and suburban areas of the City of Fredericton. However, a <a href="http://www.fredericton.ca/en/news/city-hall/transit-strategic-plan-update-and-survey-results-released">recent survey</a> shown that there are some issues needed to address to offer better services for the Fredericton's citizen.  </p>
+      
+      <p>Summary of key points and findings from this <a href="http://www.fredericton.ca/en/news/city-hall/transit-strategic-plan-update-and-survey-results-released">recent survey</a></a>:
+
+        <li>2, 312 completed surveys; approximately 50% non-riders</li>
+        <li>57% of users are satisfied or extremely satisfied with Fredericton Transit service quality</li>
+        <li>60% of users are in favour of Sunday service</li>
+        <li>76% of non-users are either likely or very likely to use transit services if there were more transit routes or greater bus frequency.</li> </p>
+        
+        <p align="justify">
+        Therefore, the aim of this project is to use GIS to analyze the data and producing some insights for the purpose of imrproving the public transit services in Fredericton.  
+        </p>
+        <div id="studyareaImg"><img src="arcgis map/the study area.png" alt="" height="550" width="750"/></div>
+        <!--<h2>Supervisor</h2>
+        <p>Dr. Emanuel Stefanakis</p>-->
+        <h2>Group members:</h2>
+        <p>Hung Cao</p>
+        <h2>Tentative Plan:</h2>
+        <p><li>Week 1: Project Proposal, build the web interface (Nov 17 - Nov 24)</li>
+        <li>Week 2: Collect data (Nov 24 - Dec 1)</li>
+        <li>Week 3: Data preparation/documentation (Dec 1 - Dec 8)</li>
+        <li>Week 4: Data processing/analysis (Dec 8 - Dec 15)</li>
+        <li>Week 5: Wrapping up/project report (Dec 15 - Dec 22)</li></p>
+        
+        <p align="center">-------------------------------------------------------</p>
+        <hr>
+        
+        
+        <h1 id="week2"><!-- Blog title -->Week 2</h1>
+      <!--<h3>SOME AWESOME HERO TAGLINE</h3>--> <!-- Tagline -->
+      
+      <h2>Datasets</h2>
+      <p align="justify">The data that are used in this project is mainly retrieved from the open source data provided by the City of Fredericton. They include the following datasets:</p>
+      <ul>
+          <li>Fredericton's Building footprints <a href="data/BuildingFootprint.zip">[data]</a> <a href="https://www.arcgis.com/home/item.html?id=7e5b4e27ac954fb2bede56fda8394c5e">[Metadata]</a></li>
+        <li>Street Centerline Segments represent each street in the City of Fredericton <a href="data/Street_CenterLine.zip">[data]</a> <a href="https://www.arcgis.com/home/item.html?id=45626db9446f4e4192e698a276773521">[Metadata]</a></li>
+        <li>Fredericton Demographics <a href="data/Fredericton_Demographics.zip">[data]</a> <a href="data/Demo_2011.shp.xml">[Metadata]</a></li>
+        <li>All bus routes of Fredection City <a href="data/Transit_Routes__Routes_de_transit.zip">[data]</a> <a href="https://www.arcgis.com/sharing/rest/content/items/edee18d4f82d4bbdbd649858c796bbb3/info/metadata/metadata.xml?format=default&output=html">[Metadata]</a>:
+           <ul>
+            <li>Route 10 <a href="data/Route_10.zip">[data]</a></li>
+            <li>Route 11 <a href="data/Route_11.zip">[data]</a></li>
+            <li>Route 12 <a href="data/Route_12.zip">[data]</a></li>
+            <li>Route 13 <a href="data/Route_13.zip">[data]</a></li>
+            <li>Route 14 <a href="data/Route_14.zip">[data]</a></li>
+            <li>Route 15 <a href="data/Route_15.zip">[data]</a></li>
+            <li>Route 16 <a href="data/Route_16.zip">[data]</a></li>
+            <li>Route 17 <a href="data/Route_17.zip">[data]</a></li>
+            <li>Route 18 <a href="data/Route_18.zip">[data]</a></li>
+            <li>Route 20 <a href="data/Route_20.zip">[data]</a></li>
+            <li>Route 116 <a href="data/Route_116.zip">[data]</a></li>
+            <li>Route 216 <a href="data/Route_216.zip">[data]</a></li>
+            </ul> </li> 
+            
+        <li>All bus stops in the Fredericton Transit network <a href="data/BusStops.zip">[data]</a> <a href="https://www.arcgis.com/home/item.html?id=d8c6de7eb0c943d2b921783d425bda41">[Metadata]</a></li>
+        <li>Fredericton Traffic Signals <a href="data/TrafficSignalsCity.zip">[data]</a> <a href="https://www.arcgis.com/sharing/rest/content/items/4584c4c03d5a48cab6a554b1caa77699/info/metadata/metadata.xml?format=default&output=html">[Metadata]</a> </li>
+		  <li>Fredericton Traffic Accidents <a href="data/Traffic_Accidents.zip">[data]</a> <a href="https://www.arcgis.com/home/item.html?id=d0f635d0bf564d8c9b968f4d38edfe9e">[metadata]</a></li>
+            
+            
+            </ul>
+      <p align="center">-------------------------------------------------------</p>
+        <hr>
+    <h1 id="week3">Week 3</h1>
+     <h2>Data processing</h2>
+     <p align="justify">Dring this week, some basic data preparation and data processing tasks are conducted. The detailed of each task is listed as follows:</p>
+     	<ul>
+     		<li>Task 1: Prepare and processing the bus stop data provided by the City of Fredericton.  </li>
+     		<li>Task 2: Prepare and processing the bus route, street centre line data as well as and building footprint data collected from Fredericton Transit and the City of Fredericton </li>
+     		<li>Task 3: Dealing with the demographics data of the City of Fredericton</li>
+     		<li>Task 4: Prepare the data of traffic signal of the City of Fredericton</li>
+     		<li>Task 5: Prepare and processing the traffic accident in Fredericton from 2007 - 2018 </li>
+     		
+     	</ul>
+	<p align="justify"><u><strong>Task 1:</strong></u> To deal with the bus stop data, we have collected, processed and created a map showing all the bus stops over the City of Fredericton. We classified the bus stops based on the type. There are five main types including: </p>
+    	<ul>
+    		<li>Bus stop with <strong>Decorative</strong></li>
+    		<li>Bus stop with <strong>Shelter</strong></li>
+    		<li>Bus stop with <strong>Shelter with Metal Pole</strong></li>
+    		<li>Bus stop with <strong>Standard on Metal Pole</strong></li>
+    		<li>Bus stop with <strong>Standard on Wooden Pole</strong></li>
+    	</ul>
+    	<p align="justify">
+    	We also plotted all the bus routes in this map, so that we can easily anaylize the bus stops belong to each bus route. In general, most of the bus stops in Fredericton are the Standard on Metal Pole. Only a few bus stops are the Shelter and Decorative. The bus stop with the Standard on Woolden Pole are mainly distributed the surburb area (i.e.: Bus Stops in Bus Route 20 - Lincoln Segment, Bus Stops in Bus Route 16/17 - Gibson Segment to Canada Street Segment, Bus Stops in Bus Route 10/11 - Sunset Drive Segment to Clementive Drive Segment)      
+     		
+     </p>
+      <div id="busstopImg"><img src="arcgis map/bus_stop_by_type.png" alt="" height="550" width="750"/></div>
+      <p align="justify"><u><strong>Task 2:</strong></u> To deal with the bus stop, bus route, street centre line data as well as and building footprint data we have collected, processed and created a map showing all the bus stops' buffers over the City of Fredericton. The map below shows the 400m catchment areas of all bus stops in Fredericton. Generally, it can be seen from the map that the distance between 2 bus stops is very close, since there are many overlap between bus stop's buffers. The high density is not always good for the bus operation performance, it is, instead, sometime create many problems such as delays, resouce wasting and highly management costs. From this basic map, other analysis may be conducted in the week 4.  :</p>
+      <div id="bufferImg"><img src="arcgis map/400m_bustop_buffer_coverage.png" alt="" height="550" width="750"/></div>
+      <!--<p>Analyse: 1. select all building coverage by the buffer map =>>> which building, area are not covered by the bus stop buffer. 
+      2. Select bus stop overlap by multi route/ select bus stop have only 1 route. 
+      3. 400m buffer is too close -> affect to bus running time -> create a map Reduce the number of bus stop (https://www.arcgis.com/home/webmap/viewer.html?panel=gallery&suggestField=true&url=https%3A%2F%2Fservices2.arcgis.com%2FiLWAxhpxafhOza2U%2Farcgis%2Frest%2Fservices%2FBus_Stop_Inventory%2FFeatureServer)   </p>-->
+      
+      <p align="justify"><u><strong>Task 3:</strong></u> We have collected and processed the demographics data of the City of Fredericton.  The map below shows the population density in Fredericton:</p>
+      <div id="popdenImg"><img src="arcgis map/pop_den.png" alt="" height="550" width="750"/></div>
+      <p align="justify">There are several initial observations from the map:
+      <ul>
+      	<li>The neighbourhoods south of the city centre as well as the Town Plat and Forest Hill have the highest population density</li>
+      	<li>Highest density area on the north side is Nashwaaksis North</li>
+      	<li>Lowest density areas are Lincoln and Silverwood (with the exception of Lincoln Heights)</li>
+      </ul>
+      </p>
+      <p>Further analysis will be conducted in week 4. <!--///Analyse: 1. Which bus route cover the highest pop density in fredericton. which not. 
+      2. Calculate how many people (posiblly) each bus route can serve (tinh so luong nguoi co the dc phuc vu bang cach tao buffer cho bus route segment, sau do overlap voi population layer roi lay ra tong so luong nguoi) co the build dung auto builder--> </p>
+      
+      <p align="justify"><u><strong>Task 4:</strong></u> The data of traffic signal of the City of Fredericton may useful for us to analyse the performance of each bus route and how may the traffic signal affect to bus service? (e.g: the more intersections a bus route pass, the longer service time it can be took) Therefore, we plotted all of the Fredericton traffic signal classified by the number of intersections. From the general observation, there are two notable points. Firstly, we can see that most of the intersections in Fredericton City are the T junction (3-way intersection). Secondly, the 4-way intersection are mainly distributed in the downtown area.</p>
+      <div id="trafficsignalImg"><img src="arcgis map/traffic_signal.png" alt="" height="550" width="750"/></div>
+      
+      <p align="justify"><u><strong>Task 5:</strong></u> The traffic accident data in Fredericton from 2007 - 2018 may useful for us to analyse to provide the warning information for the bus driver aiming to improve the safety of the transit service. Therefore, We created the heat map of traffic accident in the City of Fredericton by applying this data on the Street Line Centre of Fredericton City. To do that, we have used the Point Density tool for Spatial Analysis on the Street Line Centre layer in the Raster Analysis environment. As the results, the most dangerous areas are the downtown area and the uptown area closely to Prospect Street.</p>
+      <div id="trafficaccidentImg"><img src="arcgis map/traffic_accident.png" alt="" height="550" width="750"/></div>
+      <!--<p>Analyse: 1. THere are some correlation between the popuation density and the accident heatmap 
+      </p>-->
+      <p align="center">-------------------------------------------------------</p>
+        <hr>
+    <h1 id="week4">Week 4</h1>
+    <h2>Data analysis</h2>
+    <p align="justify"> During this week, we used the data processing available from last week combining with the model builder to delve deep in the transit services in Fredericton City. Several aspects will be explored and analysed. In details, three main analytical tasks are performed:
+  	<ul>
+  		<li>Analytical task 1: Exploring the bus service provided by Fredericton Transit.</li>
+  		<li>Analytical task 2: How accessibility can the bus service provide to passengers?</li>
+  		<li>Analytical task 3: Can we manipulate the data to provide the safety for the Fredericton Transit service?</li>
+  	</ul> </p>
+  	<p align="justify"><strong><u>Analytical Task 1:</u></strong> To explore the bus service provided by Fredericton Transit, we used Bus Stops data, Demographic data, and Bulding Foot Print data as the input layers. Our purpose is to calculate how many buildings that can be covered by the bus service (e.g.: near the bus stops) and to compute the statistical information (using Demogriphic data) about the bus service allocated to people based on age, gender, and school enrollment. We built the model below to do that. Firstly, we create a buffer layer for the all bus stops in the city with the radius of 400 meters. Then we select all the buildings with the buffers and count how many buildings are covered by the bus stops buffer. Next, we also selected the demographic regions based on the bus stops buffer. Then you the statistic operation the create a statistical table for the information we need.</p>
+    <div id="MB1Img"><img src="arcgis map/MB1.png" alt="" height="450" width="770"/></div>
+	<p align="justify"><strong><u>Result:</u></strong> The map below shows the coverage area provided by the bus services of Fredericton. In general, most of the important areas in Fredericton are corvered. Only serveral in surburb areas (in red circle) are not receiced the bus services.  </p>
+    <div id="analyse1Img"><img src="arcgis map/analyse1.png" alt="" height="550" width="750"/></div>
+    <p align="justify">From analytical results, 21973 out of 30467 buildings are covered by the bus services, accouting for 72,12%. For the statistical results, the bus services provided by Fredericton Transit are only covered nearly a half of the population (See the Table).</p>
+    <table style="border-collapse:collapse;border-spacing:0;border-color:#bbb" class="tg"><tr><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;text-align:left;vertical-align:top">Total Population</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;text-align:left;vertical-align:top">Male</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;text-align:left;vertical-align:top">Female</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;text-align:left;vertical-align:top">Male less than 16</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;text-align:left;vertical-align:top">Male from 16 to 65</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;text-align:left;vertical-align:top">Male over 65</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;text-align:left;vertical-align:top">Female less than 16</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;text-align:left;vertical-align:top">Female from 16 to 65</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;text-align:left;vertical-align:top">Female over 65</th><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;text-align:left;vertical-align:top">School Enrollment</th></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left">96592</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left">47131</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left">49491</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left">8318</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">33883</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">4930</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">8168</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">35007</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">6316</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">15515</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left">43938</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left">20956</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left">23029</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left">3374</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">15063</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">2519</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">3311</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">16204<br></td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">3514</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">6332</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">45.49%</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">44.46%</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">46.53%</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">40.56%</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">44.46%</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">51.10%</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">40.54%</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">46.29%</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">55.64%</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;text-align:left;vertical-align:top">40.81%</td></tr></table>
+    <p align="justify"><strong><u>Analytical Task 2:</u></strong> Exploring how accessibility can the bus service provide to passengers? Our assumption is that if a bus stop locate close to an intersection, it is likely easier to access for people. Therefore, the purpose of this task is to measure how many percentage of the bus stops that are near the intersections. To do that, we build a model using the Traffic Signal data, and the Bus Stop data. We pay more attention to the intersections with more than 3-way. Hence, we select them use the SQL expression. Then, create the buffers on them with a 50 meters radius. Finally, we select all the bus stop with in the buffers and get count. </p>
+    <div id="MB2Img"><img src="arcgis map/MB2.png" alt="" height="400" width="770"/></div>
+    <p align="justify"><strong><u>Results:</u></strong> We count totally 318 out of 808 bus stops closing to the intersections, accounting for 39.36%. The map below shows how accessibility of the transit services are. </p>
+    <div id="analyse2Img"><img src="arcgis map/analyse2.png" alt="" height="550" width="750"/></div>
+    <p align="justify"><strong><u>Analytical Task 3:</u></strong> To manipulate the data to provide the safety for the Fredericton Transit service, we use the Demographic data and Traffic Accident data. Looking back the results we have got from Task 3 & Task 4 last week (Week 3), we can found some similar patterns in the population distribution and traffic accident heatmap. Therefore, we use the raster heat map as the input layer to our model and extract high value to points. Then, circulating the dangerous regions with highly population distributed areas in the Demographic data and joining them to a unique spatial layer.
+    <div id="MB3Img"><img src="arcgis map/MB3.png" alt="" height="450" width="770"/></div>
+    <p align="justify"><strong><u>Results:</u></strong> By doing this analysis, we can create a map to warn the bus drivers whenever they approach these areas to in the safety feature of the bus service.</p>
+    <div id="analyse3Img"><img src="arcgis map/analyse3.png" alt="" height="550" width="750"/></div>
+    
+    <p align="center">-------------------------------------------------------</p>
+        <hr>
+    <h1 id="week5">Week 5</h1>
+    <p align="justify">From the analytical results and finding from this project. There are still some room for the Fredericton Transit to improve there service. The KML file of our analytical tasks can be found here: 
+	<ul>
+		<li>KML file for the analytical task 1 <a href="arcgis map/KML Analyse1/analyse1_MapToKML.kmz">[download]</a></li>
+		<li>KML file for the analytical task 2 <a href="arcgis map/KML Analyse2/analyse2_MapToKML.kmz">[download]</a></li>
+		<li>KML file for the analytical task 2 <a href="arcgis map/KML Analyse 3/analyse3_MapToKML.kmz">[download]</a></li>
+	</ul>
+   </p>
+   <p align="justify">Beside that, we also diseminate some of our results to the ArcGIS Online. Some of our example can be seen below: </p>
+    <iframe height="550" width="750" src="https://www.arcgis.com/apps/View/index.html?appid=3304fed1339a4991a5986ae7b59f18ee" frameborder="0" scrolling="no"></iframe>
+    <p align="justify">ArcGIS online map showing the population of Fredericton: </p>
+    <iframe height="550" width="750" src="https://www.arcgis.com/apps/StoryMapBasic/index.html?appid=222e7711f8cf4b3ebb4108154488058d" frameborder="0" scrolling="no"></iframe>
+
+    <!--<aside id="authorInfo"> 
+        
+        <h2>Author Name</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </aside>--> <!-- The author information is contained here -->
+    </section>
+    <section id="sidebar"> 
+      <!--************************************************************************
+    Sidebar starts here. It contains a searchbox, sample ad image and 6 links
+    ****************************************************************************-->
+      <input type="text" placeholder="Search">
+      <!--<div id="adimage"><img src="BlogPostAssets/images/300x250.gif" alt=""/></div>-->
+      <nav>
+        <ul>
+          <li><a href="#week1" title="Link">Week 1</a></li>
+          <li><a href="#week2" title="Link">Week 2</a></li>
+          <li><a href="#week3" title="Link">Week 3</a></li>
+          <li><a href="#week4" title="Link">Week 4</a></li>
+          <li><a href="#week5" title="Link">Week 5</a></li>
+        </ul>
+      </nav>
+    </section>
+    <footer> 
+      <!--************************************************************************
+    Footer starts here
+    ****************************************************************************-->
+      <!--<article>
+        <h3>Footer1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </article>
+      <article>
+        <h3>Footer2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </article>-->
+    </footer>
+  </div>
+  <div id="footerbar"><!-- Small footerbar at the bottom --></div>
+</div>
+</body>
+</html>

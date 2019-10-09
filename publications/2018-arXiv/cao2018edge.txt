@@ -1,0 +1,6 @@
+@article{cao2017edge,
+  title={An edge-fog-cloud platform for anticipatory learning process designed for internet of mobile things},
+  author={Cao, Hung and Wachowicz, Monica and Renso, Chiara and Carlini, Emanuele},
+  journal={arXiv preprint arXiv:1711.09745},
+  year={2017}
+}

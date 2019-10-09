@@ -1,0 +1,6 @@
+@article{cao2017next,
+  title={What is the next innovation after the internet of things?},
+  author={Cao, Hung},
+  journal={arXiv preprint arXiv:1708.07160},
+  year={2017}
+}

@@ -1,0 +1,8 @@
+@conference{cao2019analytics,
+  author       = {Cao, Hung and Wachowicz, Monica}, 
+  title        = {Analytics Everywhere for streaming IoT data},
+  booktitle	= {The 6th IEEE International Conference on Internet of Things: Systems, Management and Security},
+  year         = 2019,
+  venue      = {Granada, Spain},
+  month        = 10
+}

@@ -1,0 +1,9 @@
+@article{cao2019design,
+  title={The design of an IoT-GIS platform for performing automated analytical tasks},
+  author={Cao, Hung and Wachowicz, Monica},
+  journal={Computers, Environment and Urban Systems},
+  volume={74},
+  pages={23--40},
+  year={2019},
+  publisher={Elsevier}
+}

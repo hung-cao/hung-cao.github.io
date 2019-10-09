@@ -1,0 +1,8 @@
+@conference{cao2016the,
+  title={The role of graph databases in geomatics},
+  author={Cao, Hung and Maduako Ikechukwu and Cavalheri Emerson and Brideau Ryan  and Wachowicz, Monica},
+  booktitle={Geomatics Atlantics 2016},
+  venue ={Fredericton, NB, Canada},
+  month ={Sep},
+  year={2016}
+}

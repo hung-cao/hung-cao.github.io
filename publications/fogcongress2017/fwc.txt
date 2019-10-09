@@ -1,0 +1,8 @@
+@inproceedings{hernandez2017implementing,
+  title={Implementing an edge-fog-cloud architecture for stream data management},
+  author={Hernandez, Lilian and Cao, Hung and Wachowicz, Monica},
+  booktitle={Fog World Congress (FWC), 2017 IEEE},
+  pages={1--6},
+  year={2017},
+  organization={IEEE}
+}

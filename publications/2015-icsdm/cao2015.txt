@@ -1,0 +1,8 @@
+@inproceedings{cao2015toward,
+  title={Toward a new approach for massive LiDAR data processing},
+  author={Cao, Van-Hung and Chu, KX and Le-Khac, Nhien-An and Kechadi, M Tahar and Laefer, D and Truong-Hong, Linh},
+  booktitle={Spatial Data Mining and Geographical Knowledge Services (ICSDM), 2015 2nd IEEE International Conference on},
+  pages={135--140},
+  year={2015},
+  organization={IEEE}
+}

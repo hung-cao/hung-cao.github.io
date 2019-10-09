@@ -1,0 +1,7 @@
+@article{cao2019analytics,
+  title={Analytics Everywhere: generating insights from the Internet of Things},
+  author={Cao, Hung and Wachowicz, Monica and Renso, Chiara and Carlini, Emanuele},
+  journal={IEEE Access},
+  year={2019},
+  publisher={IEEE}
+}

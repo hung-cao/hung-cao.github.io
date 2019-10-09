@@ -1,0 +1,8 @@
+@conference{cao2016the,
+  title={How can graph databases improve transit system?},
+  author={Cao, Hung and Maduako Ikechukwu and Cavalheri Emerson and Brideau Ryan  and Wachowicz, Monica},
+  booktitle={UNB Research Showcase},
+  venue ={University of New Brunswick, Fredericton, NB, Canada},
+  month ={Sep},
+  year={2016}
+}

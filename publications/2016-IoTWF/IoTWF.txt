@@ -1,0 +1,8 @@
+@inproceedings{cha2016role,
+  title={The role of an IoT platform in the design of real-time recommender systems},
+  author={Cha, Sangwhan and Ruiz, Marta Padilla and Wachowicz, Monica and Tran, Loc Hoang and Cao, Hung and Maduako, Ikechukwu},
+  booktitle={Internet of Things (WF-IoT), 2016 IEEE 3rd World Forum on},
+  pages={448--453},
+  year={2016},
+  organization={IEEE}
+}

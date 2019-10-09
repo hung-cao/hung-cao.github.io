@@ -1,0 +1,64 @@
+/* body{
+  background-image: url("cubes.png");
+} */
+
+/* p, ol
+{
+  font-size:20px
+}
+
+p.small{
+  font-size:16px
+} */
+
+/* h1, h2, h3, h4, h5, h6{
+  text-transform: uppercase;
+  font-weight: 570
+} */
+
+.profile-img {
+  height: 200px;
+  width: 200px;  
+}
+
+/*
+ * Sidebar
+ */
+#sidebar {
+  position: relative;
+  /* padding-top: 90px; */
+  top: 70px;
+  text-align:center;
+	font-family: 'Philosopher', sans-serif;
+}
+@media (min-width: 768px) {
+  #sidebar {
+    position: fixed;
+    /* bottom: 0; */
+    bottom: 50px;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    /* border-right: 1px solid rgb(196, 30, 30); */
+    border-right: 1px solid;
+    /*border-radius: 20%;*/
+
+  }
+}
+
+/*
+ * Main content
+ */
+.main {
+  padding: 50px;
+  /* padding-left: 20px; */
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-top: 70px;
+  }
+}

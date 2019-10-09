@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<title>Welcome to Hung Cao's page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Favicon-->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"> 
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+  
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+          <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+           <!--  <span><a href="#"><img src="images/PIML_logo.png" height="50" border="0"/></a></span> -->
+           <!-- <span><a href="#"><img border="0" width="170" src="images/csucy.png"/></a></span> -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <i class="fa fa-home" aria-hidden="true"></i> Home<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a onclick="javascript:reset_menus();$('#tab-1-content').show();" href="#intro">Introduction</a></li>
+                        <li><a href="bio.html">Short Biography</a></li>
+                        <li><a href="cv.html">CV (Web)</a></li>
+                        <li><a target="_blank" href="zeinalipour.pdf">CV (PDF)</a></li>
+                    </ul>
+                </li>
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#tab-2-content').show();" href="#news"><i class="fa fa-bullhorn" aria-hidden="true"></i> News</a>
+                </li>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <i class="fa fa-newspaper-o" aria-hidden="true"></i> Publications<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a onclick="javascript:reset_menus();$('#tab-3-content').show();" href="#publications">Selected</a></li>
+                        <li><a href="publications/">All</a></li>
+                    </ul>
+                </li>
+                <!--<li class="page-scroll">
+                    <a href="talks/">Talks</a>
+                </li>-->
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#tab-5-content').show();" href="#awards"><i class="fa fa-trophy" aria-hidden="true"></i> Honors & Awards</a>
+                </li>
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#tab-4-content').show();" href="#courses">Courses</a>
+                </li>
+                
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#tab-6-content').show();" href="#service">Service</a>
+                </li>
+                <li class="page-scroll">
+                <a onclick="javascript:reset_menus();$('#tab-7-content').show();" href="#advising">Advising</a>
+                </li>
+                <li class="page-scroll">
+                    <a target="_blank" href="http://dmsl.cs.ucy.ac.cy/projects.php">Grants</a>
+                </li>
+
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#tab-9-content').show();" href="#contact">Contact</a>
+                </li>
+                <li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </a>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+
+        <!-- search box submenu -->
+        <div class="collapse" id="bs-example-navbar-collapse-2">
+            <gcse:search></gcse:search>
+        </div>
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+<section>
+    <!-- Place this tag where you want the search results to render -->
+    <gcse:searchresults-only></gcse:searchresults-only>
+</section>
+  
+
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top-60" style="max-width:1600px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="images/hung 278.jpg" style="width:50%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Hung Cao</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+         <h5>
+          <p><i class="fa fa-flask fa-fw w3-margin-right w3-large w3-text-teal"></i><a target="_blank" href="http://www.people-in-motion-lab.org/">People in Motion Lab (Cisco Big Data Analytics)</a></p>
+          <p><i class="fa fa-building fa-fw w3-margin-right w3-large w3-text-teal"></i><a target="_blank" href="http://www2.unb.ca/gge/HomePage.php">Department of Geomatics Engineering</a></p>
+          <p><i class="fa fa-university fa-fw w3-margin-right w3-large w3-text-teal"></i><a  target="_blank" href="http://www.unb.ca/">University of New Brunswick</a></p>
+          <p><i class="fa fa-address-card fa-fw w3-margin-right w3-large w3-text-teal"></i>15 Dineen Dr, Rm E-50, Fredericton, NB E3B 5A3, Canada</p>
+          <p><i class="fa fa-mobile fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="tel:015068001095">+1-506-800-1095</a></p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><script language="JavaScript">
+                <!--
+                document.write("&nbsp;");
+                spiderjam('hcao3','unb.ca');
+                -->
+            </script></p>
+            <p><i class="fa fa-location-arrow fa-fw w3-margin-right w3-large w3-text-teal"></i><a target="_blank" href="https://goo.gl/maps/zfXf5ciHc512">https://goo.gl/maps/zfXf5ciHc512</a></p>
+          </h5>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Spanish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About me</h2>
+        <p>I am a Ph.D. Student at the <a target="_blank" href="http://www.unb.ca/">University of New Brunswick</a>, studying at the <a target="_blank" href="http://www.people-in-motion-lab.org/">People in Motion Laboratory (PIML)</a>. I am currently working under the supervision of <a target="_blank" href="http://www2.unb.ca/gge/Personnel/Wachowicz/Wachowicz.html">Prof. Monica Wachowicz</a> and Prof. Chiara Renso. I received B.Eng. degree (2011) in Computer Engineering from University of Information Technology, Vietnam National University - Ho Chi Minh City (Vietnam) and M.Sc. degree (2015) in Computer Science from University College Dublin (Ireland) under the supervision of Dr.  Nhien An Le Khac. Between 2005 and , I have served the <a href="http://www.cs.ucy.ac.cy/" target="_blank">University of Cyprus</a> and the <a href="http://www.ouc.ac.cy/" target="_blank">Open University of Cyprus</a></font> as a Lecturer of Computer Science.
+            </p>
+            <p>
+            My research interests include <i>Big Data Analytics; Internet of Things; Machine Learning; Cloud Computing; Edge Computing; and Fog Computing.</i>
+            </p>
+            <!--<p>
+            Besides research and teaching, I also enjoy transforming basic research results into systems and services. Check out a few recent examples:
+            <a href="http://anyplace.cs.ucy.ac.cy" target="_blank">Anyplace</a> (Indoor, Big Data),
+            <a href="http://rayzit.com/" target="_blank">Rayzit</a> (Crowdsourcing, Big Data),
+            <a href="http://smartlab.cs.ucy.ac.cy" target="_blank">SmartLab</a> (Mobile Cloud),
+            <a href="http://www2.ucy.ac.cy/~laoudias/pages/platform.html" target="_blank">Airplace</a> (Indoor),
+            <a href="http://smarttrace.cs.ucy.ac.cy" target="_blank">Smarttrace</a> (Trajectories),
+            <a href="http://tvm.cs.ucy.ac.cy" target="_blank">TVM</a> (Privacy),
+            <a href="http://kspot.cs.ucy.ac.cy" target="_blank">KSpot</a> (Sensor).
+            </p>-->
+
+            <p><a href="bio.html" class="btn-sm btn-primary">Short Biography &raquo;</a>
+               <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a>
+               <a href="zeinalipour.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
+      </div>
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>

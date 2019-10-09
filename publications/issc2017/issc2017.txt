@@ -1,0 +1,8 @@
+@conference{cao2017the,
+  author       = {Cao, Hung and Wachowicz, Monica}, 
+  title        = {The design of a streaming analytical workflow for processing massive transit feeds},
+  booktitle	= {2nd International Symposium on Spatiotemporal Computing},
+  year         = 2017,
+  venue      = {Harvard University, Cambridge, MA, USA},
+  month        = 8
+}
