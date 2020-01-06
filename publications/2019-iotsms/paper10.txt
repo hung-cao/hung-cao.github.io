@@ -1,8 +1,8 @@
-@conference{parise2019indoor,
-  author       = {Parise, Alec and Manso-Callejo, Miguel A. and Cao, Hung and Mendonca, Marco and Kohli, Harpreet and Wachowicz, Monica}, 
-  title        = {Indoor Occupancy Prediction using an IoT Platform},
-  booktitle	= {The 6th IEEE International Conference on Internet of Things: Systems, Management and Security},
-  year         = 2019,
-  venue      = {Granada, Spain},
-  month        = 10
+@inproceedings{parise2019indoor,
+  title={Indoor Occupancy Prediction using an IoT Platform},
+  author={Parise, Alec and Manso-Callejo, Miguel A and Cao, Hung and Mendonca, Marco and Kohli, Harpreet and Wachowicz, Monica},
+  booktitle={2019 Sixth International Conference on Internet of Things: Systems, Management and Security (IOTSMS)},
+  pages={26--31},
+  year={2019},
+  organization={IEEE}
 }
