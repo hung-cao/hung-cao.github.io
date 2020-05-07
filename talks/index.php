@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>[ Zeinalipour | Talks ]</title>
+<title>[ Hung Cao | Talks ]</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Font Awesome Icons -->
@@ -119,7 +119,7 @@
                     <a href="../talks/">Talks</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="../index.html#courses">Courses</a>
+                    <a href="../index.html#courses">Teaching</a>
                 </li>
                 <li class="page-scroll">
                     <a href="../index.html#awards">Awards</a>
